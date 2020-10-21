@@ -1,8 +1,3 @@
-## Spring Boot Angular
+## Spring Boot WebFlux
 
-This module contains articles about Spring Boot with Angular
-
-### Relevant Articles:
-
-- [Building a Web Application with Spring Boot and Angular](https://www.baeldung.com/spring-boot-angular-web)
-- [A Simple E-Commerce Implementation with Spring](https://www.baeldung.com/spring-angular-ecommerce)
+Relevant application code for WebFlux in /src/main/application. Controller class pushes information from repository to /users/ and /users/{id}, with a Flux list of resources and Mono resource respectively. Information is then displayed via the repo on Angular-Webflux repository.
